@@ -2,16 +2,112 @@
     <head>
         <title>HTML Practice Page</title>
         <meta>
+        <style>
+            #main{
+                color:red; 
+                text-align: center;
+                font-size: larger; 
+                text-shadow: 1px 1px 2px; 
+                cursor:pointer; 
+            }
+
+            #h3{
+                color: violet;
+                letter-spacing: 4px;
+                opacity: 60%;
+            }
+            
+
+            #main:hover{
+                color: darkred;
+            }
+
+            .paragraph{
+                border-radius: 20%; 
+                background-color: bisque; 
+                line-height: 1cm;
+                padding: 10px;
+            }
+
+            .paragraph2{
+                border: 4px black solid;
+                background-color:coral;
+                transform: rotate(2deg);
+            }
+
+            .hr{
+                background-color:burlywood;
+                width: auto; height: 8px; 
+                border-radius: 10%;
+            }
+
+            .pre{
+                background-color: black; color: greenyellow; font-family: monospace;
+            }
+
+            .favouriteApps{
+                list-style-type:square;
+                letter-spacing: 4px;
+                background-color:antiquewhite;
+            }
+
+            #Ballers{
+                list-style-type: upper-roman;
+                font-weight: bold;
+                letter-spacing: 3px;
+            }
+
+            #link{
+                text-decoration: none;color: brown;
+            }
+
+            #link:hover{
+                text-decoration: underline;
+            }
+
+            #card{
+                border: 10px;
+                box-shadow: 2px 2px 3px; 
+                border-radius: 10%;
+            }
+
+            #word{
+                font-size: larger; 
+                font-weight: bolder;
+            }
+
+            #button:hover{
+                background-color: darkblue;
+                box-shadow: 3px 3px 4px;
+                transform: scale(110%);
+
+            }
+
+            .footer{
+                font-size: small;
+                color: brown;
+                text-align: center;
+            }
+
+            
+
+
+        </style>
     </head>
     <body>
         <h1 id="main">Main Heading</h1>
-        <h3 style="color: blueviolet;">SubHeading</h3>
+        <h3 id="h3">SubHeading</h3>
 
         <p class="paragraph">My name is <b>Rishi Thakker</b> and I am a <i>student</i> at <strong> ITM Skills University</strong>. 
             <br> 
-            I am currently pursuing a<em> B.Tech CSE</em> degree.</p> 
-            <hr>
-            <pre>
+            I am currently pursuing a<em> B.Tech CSE</em> degree.</p>
+
+            <br><br>
+
+        <p class="paragraph2">This is a very important paragraph. Jeff Epstein was very rich and important. And he is still alive in Bora Bora somewhere.</p>
+        <br>
+            <hr class="hr">
+            <pre class="pre">
                 I have three cats,
                         Their names are:
                 1. Uzi
@@ -20,29 +116,30 @@
             </pre>
 
             <h3>My favourite apps(in no order):</h3>
-            <ul class="Favourite Apps">
+            <ul class="favouriteApps">
                 <li>Youtube</li>
                 <li>Spotify</li>
                 <li>Netflix</li>
             </ul>
-            <hr>
+            <hr class="hr">
             <h3>My favourite footballers ranked</h3>
             <ol id="Ballers">
                 <li>Kylian Mbappe</li>
                 <li>Cristiano Ronaldo</li>
                 <li>Jude Bellingham</li>
             </ol>
-            <hr>
+            <hr class="hr">
 
-            <a href="https://landonorris.com">LANDO NORRIS</a>
-
-            <div>
-            Lando Norris has the best <span style="color: red;">designed</span> website
+            <a id="link" href="https://landonorris.com">LANDO NORRIS</a>
+            <br><br>
+            <div id="card">
+            Lando Norris has the best <span id="word" style="color: red;">designed</span> website
             </div>
+            <br><br>
 
-            <button id="button" style="background-color: blueviolet;" type="button">Useless Button</button>
+            <button id="button" style="background-color:blue; color: white;" type="button">Useless Button</button>
             <br><br><br>
-            <hr>
+            <hr class="hr">
             <br>
             <footer class="footer" style="font-size: smaller;">© 2026 Rishi Thakker</footer>
 
