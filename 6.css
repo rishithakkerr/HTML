@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    border:2px solid black;
+}
+
+.grid-item{
+    background-color: aquamarine;
+}
+
+.grid-item:first-child{
+
+    grid-column: 1/3
+    ;
+}

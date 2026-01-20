@@ -1,0 +1,20 @@
+.container{
+    border: 2px solid black;
+}
+
+.grid-item{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+@supports(display:grid)
+{
+    .container{
+        display: grid;
+        gap:10px;
+    }
+
+    .grid-item{
+        background-color: bisque;
+    }
+}
