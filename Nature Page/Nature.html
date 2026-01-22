@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>Nature Gallery</title>
+    <link rel="stylesheet" href="nature.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fun Nature Gallery</h1>
+        <p>Explore beautiful free nature photos while learning CSS Grid!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Landscapes</a>
+        <a href="#">Forests</a>
+        <a href="#">Mountains</a>
+        <a href="#">Water</a>
+    </nav>
+
+    <main>
+        <aside>
+            <h3>Filter Nature</h3>
+
+            <p>Try selecting: </p>
+
+            <ul>
+            <li><input type="checkbox">Forest</li>
+            <li><input type="checkbox">Mountains</li>
+            <li><input type="checkbox">Water</li>
+            </ul>
+
+            <h4>Why this is perfect for grid class: </h4>
+
+            <ul>
+                <li><b>main</b> is already a 2-column grid (sidebar + gallery).</li>
+                <li><b>.gallery</b> is a responsive grid of cars, prefect for practicing:
+                    <ul id="nested">
+                        <li>grid template-columns</li>
+                        <li>grid-gap / gap</li>
+                        <li>justify-items / align-items</li>
+                    </ul>
+                </li>
+                <li>However effects make it interactive and fun.</li>
+                <li>Students can add their favourite nature images and experiment</li>
+                <li>Sidebar filters give a "real gallery feel".</li>
+            </ul>
+        </aside>
+
+        <section class="gallery">
+
+            <div class="card">
+                <img src="images/Forest Path.jpg" alt="Path">
+                <p>Forest Path</p>
+            </div>
+
+            <div class="card">
+                <img src="images/mountain lake.jpg" alt="mountain">
+                <p>Mountain Lake</p>
+            </div>
+
+            <div class="card">
+                <img src="images/Sunset road.jpg" alt="road">
+                <p>Sunset Road</p>
+            </div>
+
+            <div class="card">
+                <img src="images/Waterfall.jpg" alt="Waterfall">
+                <p>Waterfall View</p>
+            </div>
+
+            <div class="card">
+                <img src="images/Green Forest.jpg" alt="Forest">
+                <p>Green Forest</p>
+            </div>
+
+            <div class="card">
+                <img src="images/beach.jpg" alt="beach">
+                <p>Sunset Beach</p>
+            </div>
+
+        </section> 
+    </main>
+
+    <footer>
+        <p>© 2026 Nature Gallery - Rishi Thakker</p>
+    </footer>
+
+</body>
+</html>

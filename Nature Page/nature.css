@@ -1,0 +1,93 @@
+header{
+    background-color: #8FAE8E;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+nav{
+    background-color: #3F6F6A;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+aside{
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+aside h3, aside h4{
+    color: #4b6b5f;
+}
+
+aside ul{
+    padding: 15px;
+}
+
+#nested{
+    margin-top: 10px;
+    list-style-type:circle;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card:hover{
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    background-color: #d1d5db;
+    border-radius: 8px;
+}
+
+.card p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #8FAE8E;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
