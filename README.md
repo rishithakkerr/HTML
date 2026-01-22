@@ -19,6 +19,9 @@ Tribute Page:
 <img width="999" height="811" alt="Screenshot 2026-01-16 at 2 07 01 PM" src="https://github.com/user-attachments/assets/14c9cfef-3766-4774-a47d-232c9c5c2933" />
 <img width="1026" height="811" alt="Screenshot 2026-01-16 at 2 08 04 PM" src="https://github.com/user-attachments/assets/a94d9430-fdac-4efb-b279-5a6b05d310c2" />
 
+Nature Page:
+<img width="1470" height="786" alt="Nature Page" src="https://github.com/user-attachments/assets/38b23660-0c63-4ce6-9b51-a91f6e9f05c2" />
+
 
 
 
