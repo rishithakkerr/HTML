@@ -537,3 +537,65 @@ strong:hover{
     gap: 30px;
     align-items: center;
 }
+
+/*pari*/
+.faculty-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.faculty-card {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.faculty-card img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.faculty-info h2 {
+    color: #a91d54;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.faculty-info h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.faculty-info h2:hover, .faculty-info h4:hover {
+    color:#d50035;
+    text-shadow: 0 2px 12px rgba(213, 0, 53, 0.25);
+}
+
+.faculty-info p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.7;
+    max-width: 800px;
+}
+
+.contentbox .intro h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.contentbox .intro p {
+    font-size: 16px;
+    max-width: 850px;
+}
+
+.article h2 {
+    margin-top: 60px;
+}
+
