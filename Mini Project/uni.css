@@ -49,6 +49,11 @@ nav a{
   padding-bottom: 6px;
 }
 
+nav a:hover{
+    border-bottom: 4px solid red;
+    padding-bottom: 2px;
+}
+
 .header-search{
   width: 100px;
   height: 100px;
