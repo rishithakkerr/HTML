@@ -77,7 +77,6 @@ nav a:hover{
 }
 
 aside{
-    width: 400px;
     background-color: #f9f9f9;
     padding: 0px;
     border-radius: 0px;
@@ -441,7 +440,6 @@ footer{
     background-color: #fe1522;
 }
 
-/* Education page */
 .path{
     max-width: 1200px;
     margin: 40px auto 30px;
