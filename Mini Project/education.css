@@ -12,16 +12,6 @@ body {
   position: relative;
 }
 
-body::before{
-  content: "";
-  position: absolute;
-  left: 120px;
-  width: 2px;
-  background: #c7c7c7;
-  z-index: 2;
-  top: 0;
-  bottom: 278px;
-}
 
 header {
   background-color: #750113;
@@ -102,10 +92,22 @@ nav a:hover{
 
 
 .edu-main {
-display: grid;
-  grid-template-columns: 120px 1fr;
   column-gap: 100px;
   align-items: start;
+  margin-left: 0;
+}
+
+.edu-layout {
+  display: grid;
+  grid-template-columns: 120px 1fr; 
+}
+
+.edu-sidebar-line {
+  border-right: 2px solid #e5e5e5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 200px;
 }
 
 .edu-hero-wrap {
@@ -114,19 +116,15 @@ display: grid;
   padding-top: 40px;
 }
 
-.edu-sidebar {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 100px;
-  padding-right: 20px;
-}
-
 .edu-sidebar span {
-  writing-mode: vertical-lr;
-  transform: scaleX(1);
+  writing-mode: vertical-rl;
   font-size: 40px;
   letter-spacing: 1px;
   color: #444;
+}
+
+.edu-content{
+  padding: 80px 100px 0 100px;
 }
 
 .edu-content h1{
@@ -166,24 +164,17 @@ display: grid;
 }
 
 .edu-divider {
-  width: 100vw;
+  grid-column: 1/-1;
   height: 2px;
   background: #e5e5e5;
-  margin: 0;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin:0;
 }
 
 .edu-block {
-  max-width: 1200px;
-  margin: 0;
-  margin-left: 200px;
-  padding-top: 0;
-  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 80px;
+  gap: 120px;
+  padding: 0 100px 80px 100px;
 }
 
 .edu-heading {
@@ -218,9 +209,12 @@ display: grid;
   color: white;
 }
 
+.edu-right{
+  padding-top: 140px;
+}
+
 .edu-right h3 {
   font-size: 20px;
-  padding-top: 160px;
   margin-bottom: 20px;
 }
 
