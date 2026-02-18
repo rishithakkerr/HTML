@@ -163,6 +163,10 @@ nav a:hover{
   border-bottom: 2px solid red;
 }
 
+.red-underline:hover{
+  color: red;
+}
+
 .edu-divider {
   grid-column: 1/-1;
   height: 2px;
