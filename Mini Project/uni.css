@@ -139,17 +139,8 @@ aside h3{
 
 .sidebar-list li{
     position: relative;
-    padding-left: 20px;
+    padding-left: 15px;
     margin-bottom: 10px;
-}
-
-.sidebar-list li::before{
-    content: "—";
-    font-size: 12px;
-    position: absolute;
-    left: 0;
-    color: #fe1522;
-    font-weight: bold;
 }
 
 .notice{
