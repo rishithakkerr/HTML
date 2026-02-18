@@ -387,7 +387,7 @@ main{
 }
 
 
-h1:hover,h2:hover,h3:hover,strong:hover, .sidebar-list li:hover{
+h1:hover,h2:hover,h3:hover,h4:hover,strong:hover, .sidebar-list li:hover{
     color:#d50035;
     text-shadow: 0 2px 12px rgba(213, 0, 53, 0.25);
 }
